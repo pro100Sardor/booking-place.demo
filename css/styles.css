@@ -20,6 +20,7 @@ body {
   margin-right: auto;
   margin-bottom: 50px;
   margin-left: auto;
+  padding: 21px;
   background-color: #25262c;
   border-radius: 5px;
   box-shadow: 0 4px 18px -5px #000;
@@ -28,4 +29,45 @@ body {
 .header-of-container {
   display: flex;
   justify-content: space-between;
+}
+
+.cinema-info-container {
+  width: 355px;
+}
+
+.cinema-info-sub-container {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: flex-start;
+}
+
+.cinema-name {
+  margin: 0 10px 0 0;
+  font-size: 28px;
+  white-space: nowrap;
+}
+
+.cinema-additional-info {
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 7px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.movie-theater-name {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+}
+
+.movie-screening-time {
+  font-weight: 500;
+  color: #fff;
+  font-size: 19px;
+  margin-top: 25px;
 }
